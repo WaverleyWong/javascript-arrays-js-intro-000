@@ -14,6 +14,7 @@ function addElementToEndOfArray(array, element) {
   return[...array, element]
 }
 
+<<<<<<< HEAD
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element)
   return array
@@ -39,4 +40,9 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length - 1)
+=======
+function destructivelyAddElementToEndofArray(array, element) {
+    array.push(element)
+    return array
+>>>>>>> e4ac55ced55a0d0dde06e2ea375626d5a6c995f2
 }
